@@ -6,7 +6,7 @@ const serverStartMsg = "Express server started on port: ",
   port = process.env.PORT || 3000;
 
 const httpServer = createServer(server);
-// Start server
+// Start serverqqqqq
 httpServer.listen(port, (req: any, res: any) => {
   console.log(serverStartMsg + port);
 });
